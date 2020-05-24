@@ -22,7 +22,7 @@ export default function Task({
                     onClick={() => onArchiveTask(id)}
                 />
             </label>
-            <div className='title' style={{ background: 'red' }}>
+            <div className='title'>
                 <input
                     type='text'
                     value={title}
